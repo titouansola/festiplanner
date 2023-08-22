@@ -1,0 +1,28 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "array-callback-return": "error",
+    "no-await-in-loop": "error",
+    "no-constant-binary-expression": "error",
+    "no-duplicate-imports": "error",
+    "eqeqeq": "error",
+    "no-console": "error",
+    "no-magic-numbers": "error",
+    "no-nested-ternary": "error",
+    "no-param-reassign": "error",
+    "no-return-assign": "error",
+    "no-extra-boolean-cast": "off",
+    "no-var": "error",
+    "no-void": ["error", { "allowAsStatement": true }],
+    "prefer-arrow-callback": "error",
+    "prefer-const": "error",
+    "prefer-destructuring": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error"
+  }
+}

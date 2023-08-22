@@ -1,0 +1,7 @@
+{
+  "TEST": "Test",
+  "EMAIL": "E-mail",
+  "PASSWORD": "Mot de passe",
+  "LOGIN_USE_CREDENTIALS": "Utiliser mes identifiants",
+  "LOGIN_USE_GOOGLE": "Me connecter avec Google"
+}

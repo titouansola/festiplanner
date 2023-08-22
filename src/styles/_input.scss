@@ -1,0 +1,11 @@
+.labeled-input {
+    @apply flex flex-col-reverse gap-1;
+
+    input {
+        @apply bg-white text-black placeholder-grey border border-grey rounded p-2;
+    }
+
+    label {
+        @apply text-black;
+    }
+}
